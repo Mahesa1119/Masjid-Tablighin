@@ -488,9 +488,7 @@ header .prayer-times {
         margin: 0 30px 0 30px;
     }
 
-    .manajemen-img {
-        width: 270px;
-    }
+    .manajemen-img
 
     .kami-img, .event-img {
         max-width: 100%;

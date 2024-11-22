@@ -404,7 +404,6 @@ header .prayer-times {
 /* Styling untuk HP (ukuran layar kecil) */
 @media screen and (max-width: 600px) {
     .header {
-        display: flex;
         width: 100%;
         height: auto;
         padding: 10px;
@@ -428,7 +427,7 @@ header .prayer-times {
     }
 
     .hamburger {
-        margin-right: 40px;
+        marl
         display: flex;
         font-weight: lighter;
     }
@@ -486,10 +485,6 @@ header .prayer-times {
         margin: 20px 10px;
         grid-template-columns: 1fr;
         margin: 0 30px 0 30px;
-    }
-
-    .manajemen-img {
-        width: 270px;
     }
 
     .kami-img, .event-img {

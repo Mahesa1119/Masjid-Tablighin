@@ -7,27 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="body-pertama">
-    <header class="header"> 
-        <div class="logo">
+    <header class="header">
             <img src="logo.jpg" alt="Masjid Tablighin Logo">
-        </div>
             <div class="time" id="clock">00:00:00</div>
-            <nav>
-                <div class="menu-toggle" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <button class="hamburger" id="hamburger">
-                            &#9776; <!-- Icon Hamburger -->
-                        </button>
-                        <ul class="nav-list">
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About Us</a></li>
-                            <li><a href="#profile">Profile</a></li>
-                            <li><a href="#events">Event</a></li>
-                            <li><a href="#maps" class="amaps">Maps</a></li>
-                        </ul>
-                    </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <button class="hamburger" id="hamburger">
+            &#9776; <!-- Icon Hamburger -->
+        </button>
+        <nav id="menu-list" class="hidden">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#profile">Profile</a>
+            <a href="#events">Event</a>
+            <a href="#maps" class="amaps">Maps</a>
+        </nav>
     </header>
     <section href="/data.js"></section> 
 
@@ -57,17 +54,17 @@
             </div>
         </section>
 
-        <section id="profile">
-        <div class="profile">
+        <div id="profile" class="profile">
             <h1 class="profileh1">Profile Singkat Masjid Tablighin</h1>
             <p class="profilep">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Fugiat blanditiis repellat officiis, accusantium quisquam aspernatur non 
                 animi vero quaerat ipsum. Fuga a perspiciatis autem magni voluptates nemo 
                 inventore cumque suscipit?</p>
             </div>
-        </section>
-            <div id="events" class="text">Event Masjid Tablighin</div>
-        <section class="events">
+        <div class="textmasjid">
+            <h1 class="text">Event</h1>
+        </div>
+        <section id="events" class="events">
             <div class="event">
                 <img src="ruqyah.jpg" alt="Mengenal Ruqyah" class="event-img">
                 <h2>Mengenal Ruqyah</h2>
