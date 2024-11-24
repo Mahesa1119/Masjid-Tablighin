@@ -36,7 +36,7 @@
     display: none; 
     border: none;
     background: transparent; 
-    cursor: pointer;
+    cursor: v;
     font-size: 24px;
     color: #000000; 
     z-index: 11;
@@ -441,16 +441,14 @@ header .prayer-times {
     .nav-list {
         display: none; 
         flex-direction: column;
-        align-items: center;
+        align-items: end;
         position: absolute;
         top: 50px;
         right: 0;
-        background-color: white;
-        width: wrap;
+        background-color: transparent;
+        width: 100%;
         padding-top: 0 ;
-        padding: 20px;
-        border-radius: 10px;
-        font-weight: lighter;
+        padding-right: 20px;
         z-index: 10;
     }
 

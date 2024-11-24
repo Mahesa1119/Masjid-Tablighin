@@ -446,11 +446,8 @@ header .prayer-times {
         top: 50px;
         right: 0;
         background-color: white;
-        width: wrap;
+        width: 100%;
         padding-top: 0 ;
-        padding: 20px;
-        border-radius: 10px;
-        font-weight: lighter;
         z-index: 10;
     }
 
